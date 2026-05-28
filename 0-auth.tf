@@ -1,6 +1,6 @@
 locals {
-  //Replace the empty strong with your project
-  bacchus_project = ""
+  //Replace the empty strong with your project. 
+  bacchus_project = "theowafclass75bacchusfleary"
   dolla_bill_project = "whannah-gcp-75"
   alex_project = ""
   jj_project = ""
@@ -20,6 +20,6 @@ terraform {
 }
 
 provider "google" {
-  project = local.kevin_project
+  project = local.kevin_project //Replace with your own project
   zone    = "us-central1-b"
 }
